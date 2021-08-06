@@ -14,13 +14,11 @@
 	<name>springboot-starterkit</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot with MongoDB</description>
-
 	<properties>
 		<java.version>1.8</java.version>
 		<downloadSources>true</downloadSources>
 		<downloadJavadocs>true</downloadJavadocs>
 	</properties>
-
 	<repositories>
 		<repository>
 			<id>jcenter-snapshots</id>
@@ -28,7 +26,6 @@
 			<url>https://jcenter.bintray.com/</url>
 		</repository>
 	</repositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -106,8 +103,8 @@
 			<groupId>de.flapdoodle.embed</groupId>
 			<artifactId>de.flapdoodle.embed.mongo</artifactId>
 			<scope>test</scope>
-		</dependency></dependencies>
-
+		</dependency>
+	</dependencies>
 	<profiles>
 		<profile>
 			<id>UAT</id>
@@ -122,7 +119,6 @@
 			</properties>
 		</profile>
 	</profiles>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -131,5 +127,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
